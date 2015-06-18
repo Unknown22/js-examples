@@ -21,8 +21,9 @@
     </div>
     
     
-    <button onclick="browse_elements(document.getElementById('first_chapter'), 'output');">Browse</button>
-    <button onclick="add_elements(document.getElementById('first_chapter'), document.getElementById('out_list'));">Add elements example</button>
+    <button id='out_1' onclick="browse_elements(document.getElementById('first_chapter'), 'output');">Browse</button>
+    <button id='out_2' onclick="add_elements(document.getElementById('first_chapter'), document.getElementById('out_list'));">Add elements example</button>
+	<button id= 'wyczysc_wyjscie' onclick="wyczysc_wszystko( 'out_list', 'output');" disabled>Wyczyc to co zostalo wyswietlone</button> 
     <div id="output"></div>
 
     <ul id="out_list"></ul>
